@@ -1,0 +1,68 @@
+repo: "stylish-beets"
+canvasCourse: "467502"
+canvasAssignment: "4178293"
+
+naming: true
+commits: 3
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - "header"
+      - "header h1"
+      - "header nav"
+      - "header nav ol"
+      - "h2"
+      - "p"
+      - "blockquote"
+      - "blockquote cite"
+      - "q"
+      - "ul"
+      - "dl"
+      - "data"
+      - "time"
+      - "small"
+      - "strong"
+      - "em"
+      - "i"
+      - "b"
+      - "figure"
+      - "figure img"
+      - "figure figcaption"
+      - "a[href]"
+      - "aside"
+      - "footer"
+      - "link"
+    search:
+      - "Beetroot"
+      - "purple"
+      - "Battlestar Galactica"
+      - "Chioggia"
+      - "Carbohydrates"
+      - "Vegetable!"
+      - "Wikipedia"
+      - "PT\\+Serif"
+      - "PT\\+Sans"
+      - 'class="'
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - ['html']
+      - ['img', 'width', '100%']
+      - ['a', 'text-decoration']
+      - ['a:hover', 'text-decoration']
+    search:
+      - "PT Serif"
+      - "PT Sans"
+      - "background-color"
+      - "color"
+      - "line-height"
+      - "font"
+      - "font-weight: normal"
+      - "text-decoration"
+      - "list-style-type"
