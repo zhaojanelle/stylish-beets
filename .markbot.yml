@@ -1,14 +1,20 @@
 repo: "stylish-beets"
-canvasCourse: "467502"
-canvasAssignment: "4178293"
+canvasCourse: "web-dev-1"
 
 naming: true
-commits: 3
+restrictFileTypes: true
+liveWebsite: true
+
+git:
+  numCommits: 3
+  allCommitted: true
+  allSynced: true
 
 html:
   - path: "index.html"
     valid: true
     bestPractices: true
+    outline: true
     has:
       - "header"
       - "header h1"
@@ -66,3 +72,19 @@ css:
       - "font-weight: normal"
       - "text-decoration"
       - "list-style-type"
+
+screenshots:
+  - path: 'index.html'
+    sizes: [608]
+
+functionality:
+  - path: 'index.html'
+    tests:
+      - |
+        let link = $('nav a');
+        let oldBg = css(link).backgroundColor;
+
+        hover('nav a', function () {
+          if (css(link).color == oldBg) fail('The colour of the link doesn’t change when hovered')
+          pass();
+        });
