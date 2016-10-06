@@ -23,7 +23,7 @@ deliverables: "1 HTML file, 1 CSS file, images"
 - *Typefaces:* `PT Sans`, `PT Serif` (from Google Fonts)
 - *Text sizes:* `1.5rem`, `1.125rem`, `0.8rem`
 - *Line height:* `1.5`
-- *Colours:* `#c9b5ab`, `#8f2440`, `#222`, `#3f1622`, `#3f1622`
+- *Colours:* `#c9b5ab`, `#8f2440`, `#222`, `#3f1622`
 
 ---
 
