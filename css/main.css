@@ -2,7 +2,6 @@ html {
   font-family: "PT Serif", serif;
   line-height: 1.5;
   background-color: #c9b5ab;
-  font-size: 0.8rem;
 }
 
 h1 {
@@ -61,7 +60,9 @@ img {
 blockquote {
   font-size: 1.5rem;
   font-style: italic;
-  quotes: "“" "”" "‘" "’";
+}
+q {
+    quotes: "“" "”" "‘" "’";
 }
 
 blockquote > cite {
@@ -76,9 +77,11 @@ dl dt {
   font-weight: bold;
 }
 
-dl dt:first-child {
+.servingsize {
   font-style: italic;
   font-weight: normal;
+  display: inline-block;
+  margin: 0 0 1.5rem 0;
 }
 
 .tags {
