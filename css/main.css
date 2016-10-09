@@ -19,9 +19,15 @@ h2 {
   font-weight: bold;
 }
 
-a {
+a,
+a:link {
   color: #8f2440;
   text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 nav > ol {
@@ -51,6 +57,7 @@ img {
 .commonvarieties {
   list-style: lower-greek;
 }
+
 blockquote {
   font-size: 1.5rem;
   font-style: italic;
@@ -75,7 +82,7 @@ dl dt:first-child {
 }
 
 .tags {
-  list-style: circle;
+  list-style-type: circle;
   font-size: 0.8rem;
 }
 
