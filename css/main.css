@@ -54,10 +54,14 @@ img {
 blockquote {
   font-size: 1.5rem;
   font-style: italic;
+  quotes: "“" "”" "‘" "’";
+}
+
+blockquote > cite {
+  font-size: 0.8rem;
 }
 
 cite {
-  font-size: 0.8rem;
   font-style: italic;
 }
 
@@ -73,4 +77,8 @@ dl dt:first-child {
 .tags {
   list-style: circle;
   font-size: 0.8rem;
+}
+
+strong {
+  font-weight: normal;
 }
