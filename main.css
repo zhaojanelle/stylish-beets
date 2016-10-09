@@ -1,0 +1,76 @@
+html {
+  font-family: "PT Serif", serif;
+  line-height: 1.5;
+  background-color: #c9b5ab;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+nav > ol {
+  list-style: none;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 1.125rem;
+  font-family: "PT Sans", sans-serif;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
+
+.firstparagraph {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+.commonvarieties {
+  list-style: lower-greek;
+}
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+cite {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dl dt:first-child {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.tags {
+  list-style: circle;
+  font-size: 0.8rem;
+}
